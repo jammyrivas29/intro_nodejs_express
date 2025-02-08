@@ -8,7 +8,7 @@ app.get('/items', (req, res) => {
     res.send(items);
 });
 
-// Serve static files from the 'public' folder 
+// Serve static files from the 'public' folder /
 app.use(express.static('public'));
 
 // Middleware to log requests
